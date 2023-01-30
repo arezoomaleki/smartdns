@@ -21,7 +21,7 @@ go to the smartdns directory and change SERVER_IP in Dockerfile.
 <h2>Step 4:</h2>
 <code>$cd smartdns</code><br/>
 <code>$sudo docker build . -t smartdns:latest</code><br/>
-<code>$docker run -d -it --cap-add=NET_ADMIN -p 53:53/udp -p 443:443 -p 80:80 -e IP=ServerPublicIP maj0rdns:latest</code><br/>
+<code>$docker run -d -it --cap-add=NET_ADMIN -p 53:53/udp -p 443:443 -p 80:80 -e IP=ServerPublicIP smartdns:latest</code><br/>
 <br/><br/>
 <div style='color: red'>
   <b>P.S:</b><br/>
