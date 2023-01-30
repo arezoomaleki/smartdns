@@ -3,7 +3,7 @@ Use for passing the Sanctions
 
 
 
-Step 1:
+<h1>Step 1:</h1>
 prepare a linux server (ubuntu/debian) with a PUBLIC IP address available on it.
 Install docker on it, you can use the following link if you use ubuntu 20.04:
 https://support.netfoundry.io/hc/en-us/articles/360057865692-Installing-Docker-and-docker-compose-for-Ubuntu-20-04
