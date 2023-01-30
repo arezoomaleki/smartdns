@@ -25,5 +25,5 @@ go to the smartdns directory and change SERVER_IP in Dockerfile.
 <br/><br/>
 <div style='color: red'>
   <b>P.S:</b><br/>
-  <b>Everytime you add a domain into dnsmasq.conf and domains.text you have to remove your container, build a new docker image and docker run again.</b>
+  <b>Everytime you add a domain into dnsmasq.conf and domains.txt you have to remove your container, build a new docker image and docker run again.</b>
 <div>
