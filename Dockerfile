@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 
-RUN apt update & apt upgrade
+RUN apt update
 RUN apt install sniproxy dnsmasq iptables -y
 ADD dnsmasq.conf /etc/dnsmasq.tpl
 ADD sniproxy.conf /etc/sniproxy.conf
